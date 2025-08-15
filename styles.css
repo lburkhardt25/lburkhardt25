@@ -7,3 +7,16 @@ h1 {
 p {
   color: red;
 }
+.header {
+  grid-area: hd;
+  color:aquamarine
+}
+.footer {
+  grid-area: ft;
+}
+.content {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sd;
+}
