@@ -7,9 +7,6 @@ h1 {
 p {
   color: red;
 }
-.box1 {
-  grid-area: 1 / 1 / 4 / 2;
-}
 .header {
   grid-area: hd;
 }
