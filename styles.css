@@ -7,39 +7,61 @@ h1 {
 p {
   color: red;
 }
-.header {
-  grid-area: hd;
-}
-.footer {
-  grid-area: ft;
-}
-.content {
-  grid-area: main;
-}
-.sidebar {
-  grid-area: sd;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-auto-rows: minmax(1920, auto);
-  grid-template-areas:
-    "hd hd hd hd   hd   hd   hd   hd   hd"
-    "sd sd sd main main main main main main"
-    "ft ft ft ft   ft   ft   ft   ft   ft";
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
-.wrapper {
-  background-color: #fff4e6;
-  max-width: 1920;
-  margin: 0 auto;
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
 }
 
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
