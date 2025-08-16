@@ -1,12 +1,18 @@
 body {
-  background-color: powderblue;
+  background-color: #F0F8FF;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: blue;
+  color: #47245F;
 }
 p {
-  color: red;
+  color: black;
+}
+p_header {
+  color: #F0F8FF
+}
+p_nav {
+  color: #F0FFF0
 }
 
 * {
@@ -15,7 +21,7 @@ p {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #82A9C4;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -27,7 +33,7 @@ nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  background: #F0FFF0;
   padding: 20px;
 }
 
@@ -67,3 +73,5 @@ footer {
     height: auto;
   }
 }
+
+
