@@ -1,5 +1,5 @@
 body {
-  background-color: #c5e1d7;
+  background-color: #699182;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -21,6 +21,7 @@ p_nav {
 
 /* Style the header */
 header {
+  background-color: #699182;
   padding: 0px;
   text-align: center;
   font-size: 35px;
