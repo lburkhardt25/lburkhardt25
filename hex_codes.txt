@@ -1,0 +1,6 @@
+#03a1fc family for Dusty Blue color
+#5090b5 dusty blue
+#699182 sage
+#a3d1c0 bg 
+#c5e1d7 bg 2
+#6b4d82 lavendar
