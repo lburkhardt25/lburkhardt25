@@ -20,6 +20,17 @@ p_footer {
   color: #F0FFF0
 }
 
+p_home {
+  color: #2d473e;
+  font-size:5vw;
+}
+
+h_home {
+  color: #2d473e;
+  font-family: cursive;
+  font-size:10vw;
+}
+
 * {
   box-sizing: border-box;
   text-align: center;
