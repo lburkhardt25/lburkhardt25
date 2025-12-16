@@ -22,14 +22,18 @@ p_footer {
 
 p_home {
   color: #2d473e;
-  font-size:5vw;
+  font-size:2vw;
 }
 
 h_home {
   color: #2d473e;
   font-family: cursive;
-  font-size:10vw;
+  font-size:4vw;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 * {
   box-sizing: border-box;
