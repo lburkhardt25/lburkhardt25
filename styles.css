@@ -30,6 +30,8 @@ p_footer {
 p_home {
   color: #2d473e;
   font-size:32px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2
 }
 
 h_home {
